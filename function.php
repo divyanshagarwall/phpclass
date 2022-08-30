@@ -31,3 +31,33 @@
 // print_r(count_chars("AbcdAAB",1));
 // print_r(count_chars("AbcdAAB",3));
 
+// echo crc32("hello");
+// echo crypt("hello","8");
+
+// print_r(explode("e","hello class php"));
+
+// htmlentities html_entity_decode htmlspecialchars htmlspecialchars_decode 4 functions
+
+// echo implode();/join();
+
+// echo lcfirst("Hello class");
+
+// echo ucfirst("hello class");
+
+// echo ucwords("hello class");
+
+// echo strpos("hello class","o");/stripos();
+
+// echo str_replace("h","p","hello");
+// str_ireplace(); 000000000
+
+// echo strrev("hello class");
+
+// echo str_replace("h","p",strrev("hello class"));
+
+// echo strcmp("m","b");
+
+// echo sta1("hello");
+
+// echo md5("h");
+
