@@ -34,11 +34,11 @@
 // echo crc32("hello");
 // echo crypt("hello","8");
 
-// print_r(explode("e","hello class php"));
+// print_r(explode("e","hello class php")); string to array
 
 // htmlentities html_entity_decode htmlspecialchars htmlspecialchars_decode 4 functions
 
-// echo implode();/join();
+// echo implode();/join(); array to string
 
 // echo lcfirst("Hello class");
 
@@ -61,5 +61,8 @@
 
 // echo md5("h");
 
+// echo str_repeat("");
 
+// echo str_shuffle(""); / echo random(""); random has problem of repetation
 
+echo 
