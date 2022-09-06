@@ -65,4 +65,3 @@
 
 // echo str_shuffle(""); / echo random(""); random has problem of repetation
 
-echo 
