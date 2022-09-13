@@ -18,9 +18,10 @@
 
 
 
-// $count = 1;
-// for(; $count <= 100; $count++)
-// {
-//     echo $count."<br>";
-// }
+$count = 1;
+for(; $count <= 100; $count++)
+{
+    echo $count."<br>";
+}
+
 
