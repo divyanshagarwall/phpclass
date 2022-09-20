@@ -23,3 +23,18 @@
 // {
 //     echo $count."<br>";
 // }
+
+
+$num = 1;
+echo "<table style='border: 2px solid black;'>";
+for($row = 1; $row <= 10; ++$row)
+{
+    echo "<tr>";
+    for($col = 1; $col <= 10; ++$col)
+    {
+        echo "<td>$num</td>";
+        $num++;
+    }
+    echo "</tr>";
+}
+echo "</table>";
