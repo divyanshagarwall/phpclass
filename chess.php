@@ -12,7 +12,7 @@
 			$value = $col;
 
 			for($row = 0; $row < 8; $row++) {
-				if($value%2 == 0) {
+				if($value%2 == 0) {		
 					echo
 "<td height=40px width=20px bgcolor=black></td>";
 					$value++;

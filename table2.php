@@ -25,10 +25,10 @@
         </tr>
         <tr>
             <td >
-                Piyush
+                Divyansh
                 </td>
             <td>
-                Vishnani
+                Agarwal
             </td>
         </tr>
         <tr>
