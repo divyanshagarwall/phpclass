@@ -1,6 +1,6 @@
 <?php
 
-// asci valuec learn 
+// asci value learn 
 
 // echo addcslashes("hello class","hsc");
 // echo addslashes("hel'lo");
@@ -42,7 +42,7 @@
 
 // echo lcfirst("Hello class");
 
-// echo ucfirst("hello class");
+echo ucfirst("hello class");
 
 // echo ucwords("hello class");
 

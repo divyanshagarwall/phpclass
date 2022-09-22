@@ -1,13 +1,13 @@
 <?php
-// $date_1 = array(10,20,30,40);
-// $date_2=[100,200,300,400];
-// $date = ["sneha"=>29,"Divyansh"=>58,"rahul"=>75,"harsh"=>76];
+$date_1 = array(10,20,30,40);
+$date_2=[100,200,300,400];
+$date = ["sneha"=>29,"Divyansh"=>58,"rahul"=>75,"harsh"=>76];
 
-// $rem= [30,40];
+$rem= [30,40];
 
 // print_r(array_change_key_case($date)); //to change upper case and lower case
 
-// print_r(array_chunk($date,3));
+print_r(array_chunk($date,3));
 
 // print_r(array_combine($date_1,$date_2));
 
@@ -63,7 +63,7 @@
 
 // print_r(array_slice($date_1,2));
 
-$data = [50,30,35,26,8];
-$new = ["y"=>80,"m"=>90,,"o"=>85];
-sort($data); //rsort($data); asort($new); arsort($new); ksort($new); krsort($new);
-print_r();
+// $data = [50,30,35,26,8];
+// $new = ["y"=>80,"m"=>90,,"o"=>85];
+// sort($data); //rsort($data); asort($new); arsort($new); ksort($new); krsort($new);
+// print_r();
