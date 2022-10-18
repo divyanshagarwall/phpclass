@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .wrapper {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+      }
+
+      form {
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+
+      .input-box {
+        padding: 10px;
+      }
+
+      .field {
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+      }
+
+      input::placeholder {
+        color: #333;
+      }
+
+      .btn-box {
+        text-align: center;
+      }
+
+      button {
+        margin-top: 10px;
+        padding: 10px 30px;
+        border: none;
+        background-color: #444;
+        font-size: 18px;
+        border-radius: 6px;
+        cursor: pointer;
+        color: #fff;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .title {
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 20px;
+      }
+
+      span {
+        color: #222;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="login.php">
+        <div class="title">
+          <h1>Login</h1>
+        </div>
+        <div class="input-box">
+          <span>Name :</span>
+          <input class="field" type="text" placeholder="Your Name" />
+        </div>
+        <div class="input-box">
+          <span>Password :</span>
+          <input class="field" type="password" placeholder="Your Password" />
+        </div>
+        <div class="btn-box">
+          <button>Login</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
