@@ -14,6 +14,8 @@ while(!feof($handle))
         $data = "<br>";
     }
     echo $data;
+
+    
 }
 copy ("sectionk.txt","sectionk2.txt");
 if(file_exists("sectionk2.txt") or die("file not exists"))
