@@ -49,4 +49,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 ?>
 
 <body>
+    <form action="data.php" method="POST">
+        <input type=text name=new_id value='$data[id]'>
+        <input type=text name=new_fname value='$data[fname]'>
+        <input type=text name=new_femail value='$data[femail]'>
+        <input type=submit name=update value=update>
+        <input type=submit name=delete value=delete>
+    </form>
 </body>
